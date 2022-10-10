@@ -1,0 +1,7 @@
+.btn-plus{
+    background-color: var(--clr-confirm);
+    color: var(--clr-button);
+}
+.btn-plus:hover{
+    opacity: 0.6;
+}

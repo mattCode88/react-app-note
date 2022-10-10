@@ -1,0 +1,10 @@
+.btn-audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-bg-3);
+    color: var(--clr-theme-mode);
+}
+.btn-audio:hover{
+    opacity: 0.6;
+}

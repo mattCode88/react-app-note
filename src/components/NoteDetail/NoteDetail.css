@@ -1,0 +1,28 @@
+.nota-detail{
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--clr-bg-2);
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--clr-title);
+    box-shadow: var(--shadow);
+}
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.nota-important{
+    width: 15px;
+    height: 15px;
+    background-color: var(--clr-alert);
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 767px){
+    .nota-detail{
+        width: 100%;
+    }
+}

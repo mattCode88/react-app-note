@@ -1,0 +1,61 @@
+.modal {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);    
+}
+
+.modal-content {
+    background-color: var(--clr-bg-2);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid var(--clr-bg-3);
+    width: 80%;
+    position: relative;
+    border-radius: 5px;
+}
+
+label{
+    color: var(--clr-title);
+}
+.input-text, textarea{
+    border: none;
+    border-bottom: 1px solid var(--clr-bg-3);
+    background-color: var(--clr-bg-2);
+    color: var(--clr-text);
+    padding-bottom: 8px;
+    font-size: 13px;
+}
+textarea{
+    resize: none;
+}
+.input-container{
+    margin: 15px 0;
+    width: 70%;
+}
+.input-radio{
+    margin: 15px 0;
+}
+.input-container>.input-text{
+    width: 100%;
+}
+
+.btn-confirm{
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--clr-confirm);
+    color: var(--clr-title);
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.btn-confirm:hover{
+    opacity: 0.6;
+    
+}

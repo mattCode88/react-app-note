@@ -1,0 +1,13 @@
+.btn-exit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--clr-alert);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-exit:hover{
+    opacity: 0.6;
+}

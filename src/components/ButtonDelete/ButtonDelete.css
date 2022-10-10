@@ -1,0 +1,9 @@
+.btn-delete {
+    background-color: var(--clr-alert);
+    color: var(--clr-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: auto;
+}
+
